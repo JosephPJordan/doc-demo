@@ -15,7 +15,7 @@
  - [Configuration Example](#configuration-example)
 
 ## Introduction
-This solution uses a CloudFormation Template to launch a single NIC deployment a BIG-IP VE in an Amazon Virtual Private Cloud, using PAYG (pay as you go) hourly licensing. 
+This solution uses a CloudFormation Template to launch a single NIC deployment a BIG-IP VE in an Amazon Virtual Private Cloud, using PAYG (pay as you go) hourly licensing.  This is a typo. 
 
 This is an *existing stack* template, meaning the networking infrastructure MUST be available prior to deploying. See the Template Parameters Section for required networking objects. See the *production stack* directory for additional deployment options.
 
