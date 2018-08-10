@@ -16,7 +16,7 @@
 
 
 ## Introduction
-<details><summary><strong>Click to expand</strong></summary>
+<details><summary>Click to expand</summary>
 <p>
 
 
