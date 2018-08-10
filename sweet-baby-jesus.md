@@ -14,9 +14,9 @@
  - [Service Discovery](#service-discovery)
  - [Configuration Example](#configuration-example)
 
-## Introduction
-<details><summary></summary>
+<details><summary>## Introduction</summary>
 <p>
+
 
 This solution uses a CloudFormation Template to launch a single NIC deployment a BIG-IP VE in an Amazon Virtual Private Cloud, using a [BIG-IQ device](https://f5.com/products/big-iq-centralized-management) with a pool of BIG-IP licenses in order to license BIG-IP VEs using BYOL licenses.  
 
