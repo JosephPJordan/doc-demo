@@ -4,17 +4,6 @@
 [![Releases](https://img.shields.io/github/release/f5networks/f5-aws-cloudformation.svg)](https://github.com/f5networks/f5-aws-cloudformation/releases)
 [![Issues](https://img.shields.io/github/issues/f5networks/f5-aws-cloudformation.svg)](https://github.com/f5networks/f5-aws-cloudformation/issues)
 
-**Contents**
- - [Introduction](#introduction) 
- - [Prerequisites](#prerequisites)
- - [Important Configuration Notes](#important-configuration-notes)
- - [Security](#security)
- - [Getting Help](#getting-help)
- - [Deploying the solution](#deploying-the-f5-single-nic-solution) 
- - [Service Discovery](#service-discovery)
- - [Configuration Example](#configuration-example)
-
-
 ## Introduction
 <details><summary>Click to expand</summary>
 <p>
