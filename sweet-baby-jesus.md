@@ -238,16 +238,27 @@ For assistance running the iApp template, once you open the iApp, from the *Do y
 
 
 ## Configuration Example
-
+<details><summary>Click to expand</summary>
+<p>
 The following is a simple configuration diagram for this single NIC deployment. In this scenario, all access to the BIG-IP VE appliance is through the same IP address and virtual network interface (vNIC).  This interface processes both management and data plane traffic.
 
 ![Single NIC configuration example](../../images/AWS-1nic.png)
 
+</p>
+</details>
+
 ### More documentation
+<details><summary>Click to expand</summary>
+<p>
 For more information on F5 solutions for AWS, including manual configuration instructions for many of our AWS templates, see our Cloud Docs site: http://clouddocs.f5.com/cloud/public/v1/.
 
+</p>
+</details>
 
 ### Sending statistical information to F5
+<details><summary>Click to expand</summary>
+<p>
+ 
 All of the F5 templates now have an option to send anonymous statistical data to F5 Networks to help us improve future templates.  
 None of the information we collect is personally identifiable, and only includes:  
 
@@ -264,7 +275,13 @@ None of the information we collect is personally identifiable, and only includes
 
 This information is critical to the future improvements of templates, but should you decide to select **No**, information will not be sent to F5.
 
+</p>
+</details>
+
 ## Security Details
+<details><summary>Click to expand</summary>
+<p>
+ 
 This section has the entire code snippets for each of the lines you should ensure are present in your template file if you want to verify the integrity of the helper code in the template.
 
 **/config/verifyHash section**
@@ -352,10 +369,13 @@ Note the hashes and script-signature may be different in your template. The impo
               }
 ```
 
-
+</p>
+</details>
 
 
 ## Filing Issues
+<details><summary>Click to expand</summary>
+<p>
 If you find an issue, we would love to hear about it. 
 You have a choice when it comes to filing issues:
   - Use the **Issues** link on the GitHub menu bar in this repository for items such as enhancement or feature requests and non-urgent bug fixes. Tell us as much as you can about what you found and how you found it.
@@ -363,6 +383,8 @@ You have a choice when it comes to filing issues:
   - Use our [Slack channel](https://f5cloudsolutions.herokuapp.com) for discussion and assistance on F5 cloud templates.  There are F5 employees who are members of this community who typically monitor the channel Monday-Friday 9-5 PST and will offer best-effort assistance.
   - For templates in the **supported** directory, contact F5 Technical support via your typical method for more time sensitive changes and other issues requiring immediate support.
 
+</p>
+</details>
 
 
 ## Copyright
