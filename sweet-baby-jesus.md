@@ -14,7 +14,7 @@
  - [Service Discovery](#service-discovery)
  - [Configuration Example](#configuration-example)
 
-<details><summary>## Introduction</summary>
+<details><summary><strong>Introduction</strong></summary>
 <p>
 
 
