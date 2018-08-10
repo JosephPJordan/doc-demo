@@ -32,7 +32,7 @@ For information on getting started using F5's CFT templates on GitHub, see [Amaz
 </details>
 
 ## Prerequisites
-<details><summary>Click to expand</summary>
+<details><summary>or click here</summary>
 <p>
  
 The following are prerequisites and notes for the F5 single NIC CFT:
@@ -49,7 +49,7 @@ The following are prerequisites and notes for the F5 single NIC CFT:
 </details>
  
 ## Important configuration notes
-<details><summary>Click to expand</summary>
+<details><summary></summary>
 <p>
  
 - This template creates an AWS Security Group as a part of the deployment. This includes a port for accessing your applications on port 80/443.  If your applications need additional ports, you must add those to the external Security Group created by the template.  For instructions on adding ports, see the AWS documentation.
