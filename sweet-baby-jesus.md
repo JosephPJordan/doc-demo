@@ -15,6 +15,9 @@
  - [Configuration Example](#configuration-example)
 
 ## Introduction
+<details><summary>Click to expand</summary>
+<p>
+
 This solution uses a CloudFormation Template to launch a single NIC deployment a BIG-IP VE in an Amazon Virtual Private Cloud, using a [BIG-IQ device](https://f5.com/products/big-iq-centralized-management) with a pool of BIG-IP licenses in order to license BIG-IP VEs using BYOL licenses.  
 
 This is an *existing stack* template, meaning the networking infrastructure MUST be available prior to deploying. See the Template Parameters Section for required networking objects. See the *production stack* directory for additional deployment options.
@@ -22,7 +25,10 @@ This is an *existing stack* template, meaning the networking infrastructure MUST
 Traffic flows from the BIG-IP VE to the application servers.  This is the standard Cloud design where the compute instance of F5 is running with a single interface, which processes both management and data plane traffic.  This is a traditional model in the cloud where the deployment is considered one-armed. The BIG-IP VE has the <a href="https://f5.com/products/big-ip/local-traffic-manager-ltm">Local Traffic Manager</a> (LTM) module enabled to provide advanced traffic management functionality. This means you can also configure the BIG-IP VE to enable F5's L4/L7 security features, access control, and intelligent traffic management.
 
 For information on getting started using F5's CFT templates on GitHub, see [Amazon Web Services: Solutions 101](http://clouddocs.f5.com/cloud/public/v1/aws/AWS_solutions101.html).
- 
+
+</p>
+</details>
+
 ## Prerequisites
 <details><summary>Click to expand</summary>
 <p>
