@@ -1,6 +1,7 @@
 # F5 CloudFormation Templates for Amazon Web Services (AWS) 
+The following list contains links to the README file documentation for each of the F5 Supported CloudFormation templates.
 
-## NICs
+### NICs
 
 Deploy a BIG-IP VE with the number of NICs you choose.
 
@@ -19,7 +20,7 @@ Deploy a BIG-IP VE with the number of NICs you choose.
 | 3-8 NICs **production** stack                      | [README][nnicbyolrmpub]     | [README][nnicbigiqrmpub] | [README][nnicpaygrmpub] |
     
 
-## Failover clusters
+### Failover clusters
 
 Deploy BIG-IP VEs that fail over to one another.
 
@@ -34,7 +35,7 @@ Deploy BIG-IP VEs that fail over to one another.
 | 3 NIC cluster, different AZs **production** stack  | [README][3clbyolrmpubAZ]  | [README][3clbigiqrmpubAZ] | [README][3clpaygrmpubAZ] |
 
 
-## Auto scaling
+### Auto scaling
 
 Deploy a BIG-IP VE that auto scales based on traffic thresholds.
 
