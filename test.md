@@ -22,9 +22,9 @@ Across all branches in this repository, there are two directories: *supported* a
 
   </p></details>
 
-## Template information
 <details><summary><strong>Click to expand Template information</strong></summary>
 <p>
+## Template information
 Descriptions for each template are contained at the top of each template in the *Description* key.
 For additional information, including how the templates are generated, and assistance in deploying a template, see the README file on the individual template pages.
 
