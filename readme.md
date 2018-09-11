@@ -35,13 +35,9 @@ F5 has created a matrix that contains all of the tagged releases of the F5 Cloud
 
 
 
-## List of Supported F5 CloudFormation templates for AWS deployments
+## Table of Supported F5 CloudFormation templates for AWS deployments
 The following tables contain links to the current *supported* F5 CloudFormation templates. Click the links to view the README files which include the Launch buttons and additional information. 
 
-
-### Number of NICs
-
-Deploy a BIG-IP VE with the number of NICs you choose.
 
 | **Description**                                    | **BYOL**                    | **BIG-IQ**               | **PAYG**                |
 |----------------------------------------------------|-----------------------------|--------------------------|-------------------------|                                                             
