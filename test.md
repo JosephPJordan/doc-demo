@@ -1,13 +1,51 @@
-# F5 CloudFormation Templates for Amazon Web Services (AWS) 
-The following list contains links to the README file documentation for each of the F5 Supported CloudFormation templates.
+# F5 AWS CloudFormation templates
+[![Slack Status](https://f5cloudsolutions.herokuapp.com/badge.svg)](https://f5cloudsolutions.herokuapp.com)
+[![Releases](https://img.shields.io/github/release/f5networks/f5-aws-cloudformation.svg)](https://github.com/f5networks/f5-aws-cloudformation/releases)
+[![Issues](https://img.shields.io/github/issues/f5networks/f5-aws-cloudformation.svg)](https://github.com/f5networks/f5-aws-cloudformation/issues)
 
-### NICs
+## Introduction
+
+Welcome to the GitHub repository for F5's CloudFormation templates for deploying F5 in Amazon Web Services.  All of the templates in this repository have been developed by F5 Networks engineers.
+
+For information on getting started using F5's CFT templates on GitHub, see [Amazon Web Services: Solutions 101](http://clouddocs.f5.com/cloud/public/v1/aws/AWS_solutions101.html) and the README files in each directory.  
+
+
+<details><summary>Click to expand Support information</summary>
+<p>
+Across all branches in this repository, there are two directories: *supported* and *experimental*.
+
+  - **supported**<br>
+  The *supported* directory contains CloudFormation templates that have been created and fully tested by F5 Networks. These templates are fully supported by F5, meaning you can get assistance if necessary from F5 Technical Support via your typical methods.
+
+  - **experimental**<br>
+  The *experimental* directory also contains CloudFormation templates that have been created by F5 Networks. However, these templates have not completed full testing and are subject to change. F5 Networks does not offer technical support for templates in the experimental directory, so use these templates with caution.
+
+  </p></details>
+
+## Template information
+<details><summary>Click to expand Template information</summary>
+<p>
+Descriptions for each template are contained at the top of each template in the *Description* key.
+For additional information, including how the templates are generated, and assistance in deploying a template, see the README file on the individual template pages.
+
+### Matrix for tagged releases
+F5 has created a matrix that contains all of the tagged releases of the F5 Cloud Formation Templates (CFTs) for Amazon AWS, and the corresponding BIG-IP versions, license types, and throughput levels available for a specific tagged release. See https://github.com/F5Networks/f5-aws-cloudformation/blob/master/aws-bigip-version-matrix.md.
+</p></details>
+
+
+
+## List of Supported F5 CloudFormation templates for AWS deployments
+The following tables contain links to the current *supported* F5 CloudFormation templates. Click the links to view the README files which include the Launch buttons and additional information. 
+
+
+<br><br>
+### Number of NICs
 
 Deploy a BIG-IP VE with the number of NICs you choose.
 
 | **Description**                                    | **BYOL**                    | **BIG-IQ**               | **PAYG**                |
 |----------------------------------------------------|-----------------------------|--------------------------|-------------------------|                                                                
-| 1 NIC    **existing** stack                        | [README][1nicbyolrm]     | [README][1nicbigiqrm]    | [README][1nicpaygrm]  |
+| 1 NIC    **existing** stack                        | [README][1nicbyolrm]        | [README][1nicbigiqrm]    | [README][1nicpaygrm]    |
 | 1 NIC    **production** stack                      | [README][1nicbyolrmpub]     | [README][1nicbigiqrmpub] | [README][1nicpaygrmpub] |
 |                                                    |                             |                          |                         |
 | 2 NICs   **existing** stack                        | [README][2nicbyolrm]        | [README][2nicbigiqrm]    | [README][2nicpaygrm]    |
@@ -41,33 +79,13 @@ Deploy a BIG-IP VE that auto scales based on traffic thresholds.
 
 | **Description**                                    | **BIG-IQ**                  | **PAYG**               |
 |----------------------------------------------------|-----------------------------|------------------------|
-| Auto scale LTM                                     | [README][ltmasbigiqrm]      | [README][ltmaspaygrm]  |
-| Auto Scale WAF                                     | [README][wafasbigiqrm]      | [README][wafaspaygrm]  |
-
-# F5 ARM templates for Microsoft Azure
-
-etc, etc
-
-<!--- N-nics NO public IP - aka PRODUCTION -->
-
-[nnicbyolrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/production-stack/byol
-
-    
-[nnicbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/production-stack/bigiq
+| Auto scale LTM (frontend via ELB)                  | [README][ltmasbigiqrm]      | [README][ltmaspaygrm]  |
+| Auto scale LTM (frontend via DNS)                  | [README][ltmasbigiqdns]     | [README][ltmaspaygrm]  |
+| Auto Scale WAF (frontend via ELB)                  | [README][wafasbigiqrm]      | [README][wafaspaygrm]  |
+| Auto Scale WAF (frontend via DNS)                  | [README][wafasbigiqdns]     | [README][wafaspaygrm]  |
 
 
-[nnicpaygrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/production-stack/payg
 
-
-<!--- N-nics WITH public IP - aka EXISTING  -->
-
-[nnicbyolrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/existing-stack/byol
-
-    
-[nnicbigiqrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/existing-stack/bigiq
-
-
-[nnicpaygrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/existing-stack/payg
 
 
 
@@ -128,7 +146,26 @@ etc, etc
 
 [3nicpaygrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/3nic/existing-stack/payg
 
+<!--- N-nics NO public IP - aka PRODUCTION -->
 
+[nnicbyolrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/production-stack/byol
+
+    
+[nnicbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/production-stack/bigiq
+
+
+[nnicpaygrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/production-stack/payg
+
+
+<!--- N-nics WITH public IP - aka EXISTING  -->
+
+[nnicbyolrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/existing-stack/byol
+
+    
+[nnicbigiqrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/existing-stack/bigiq
+
+
+[nnicpaygrmpub]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/standalone/n-nic/existing-stack/payg
 
 <!--- clustered 2 nic same AZ NO public IP - aka PRODUCTION -->
 
@@ -196,12 +233,19 @@ etc, etc
 
 
 
-<!--- Auto scaling LTM -->
+<!--- Auto scaling LTM - via LB-->
 
 
 [ltmaspaygrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-lb/1nic/existing-stack/payg
 
 [ltmasbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-lb/1nic/existing-stack/bigiq
+
+<!--- Auto scaling LTM - via DNS-->
+
+
+[ltmaspaygdns]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-dns/1nic/existing-stack/payg
+
+[ltmasbigiqdns]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-dns/1nic/existing-stack/bigiq
 
 
 <!--- Auto scaling WAF -->
@@ -210,3 +254,46 @@ etc, etc
 
 [wafasbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-lb/1nic/existing-stack/bigiq
 
+<!--- Auto scaling WAF -->
+
+[wafaspaygrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/waf/via-dns/1nic/existing-stack/payg
+
+[wafasbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-dns/1nic/existing-stack/bigiq
+
+
+
+
+
+
+  
+   
+---
+
+
+### Copyright
+
+Copyright 2014-2018 F5 Networks Inc.
+
+
+### License
+
+
+## Apache V2.0
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License. You may obtain a copy of the
+License at:
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and limitations
+under the License.
+
+
+## Contributor License Agreement
+
+Individuals or business entities who contribute to this project must have
+completed and submitted the F5 Contributor License Agreement
