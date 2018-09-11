@@ -38,7 +38,7 @@ F5 has created a matrix that contains all of the tagged releases of the F5 Cloud
 The following tables contain links to the current *supported* F5 CloudFormation templates. Click the links to view the README files which include the Launch buttons and additional information. 
 
 
-<br><br>
+
 ### Number of NICs
 
 Deploy a BIG-IP VE with the number of NICs you choose.
@@ -261,12 +261,6 @@ Deploy a BIG-IP VE that auto scales based on traffic thresholds.
 [wafasbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-dns/1nic/existing-stack/bigiq
 
 
-
-
-
-
-  
-   
 ---
 
 
