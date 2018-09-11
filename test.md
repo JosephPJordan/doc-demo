@@ -23,7 +23,7 @@ Across all branches in this repository, there are two directories: *supported* a
   </p></details>
 
 ## Template information
-<details><summary>Click to expand Template information</summary>
+<details><summary><strong>Click to expand Template information</strong></summary>
 <p>
 Descriptions for each template are contained at the top of each template in the *Description* key.
 For additional information, including how the templates are generated, and assistance in deploying a template, see the README file on the individual template pages.
@@ -36,7 +36,6 @@ F5 has created a matrix that contains all of the tagged releases of the F5 Cloud
 
 ## List of Supported F5 CloudFormation templates for AWS deployments
 The following tables contain links to the current *supported* F5 CloudFormation templates. Click the links to view the README files which include the Launch buttons and additional information. 
-
 
 
 ### Number of NICs
