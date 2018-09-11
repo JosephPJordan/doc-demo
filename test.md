@@ -256,9 +256,9 @@ Deploy a BIG-IP VE that auto scales based on traffic thresholds.
 
 <!--- Auto scaling WAF -->
 
-[wafaspaygrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/waf/via-dns/1nic/existing-stack/payg
+[wafaspaygdns]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/waf/via-dns/1nic/existing-stack/payg
 
-[wafasbigiqrm]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-dns/1nic/existing-stack/bigiq
+[wafasbigiqdns]: https://github.com/F5Networks/f5-aws-cloudformation/tree/master/supported/autoscale/ltm/via-dns/1nic/existing-stack/bigiq
 
 
 ---
