@@ -45,7 +45,7 @@ Deploy a BIG-IP VE with the number of NICs you choose.
 
 | **Description**                                    | **BYOL**                    | **BIG-IQ**               | **PAYG**                |
 |----------------------------------------------------|-----------------------------|--------------------------|-------------------------|                                                             
-| **Number of NICs** : Deploy a BIG-IP VE with the number of NICs you choose.                                                      |
+| <td colspan=3>**Number of NICs** : Deploy a BIG-IP VE with the number of NICs you choose. </td>                                  |
 | 1 NIC    **existing** stack                        | [README][1nicbyolrm]        | [README][1nicbigiqrm]    | [README][1nicpaygrm]    |
 | 1 NIC    **production** stack                      | [README][1nicbyolrmpub]     | [README][1nicbigiqrmpub] | [README][1nicpaygrmpub] |
 |                                                    |                             |                          |                         |
