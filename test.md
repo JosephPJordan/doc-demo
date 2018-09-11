@@ -10,7 +10,7 @@ Welcome to the GitHub repository for F5's CloudFormation templates for deploying
 For information on getting started using F5's CFT templates on GitHub, see [Amazon Web Services: Solutions 101](http://clouddocs.f5.com/cloud/public/v1/aws/AWS_solutions101.html) and the README files in each directory.  
 
 
-<details><summary>Click to expand Support information</summary>
+<details><summary><strong>Click to expand Support information</strong></summary>
 <p>
 Across all branches in this repository, there are two directories: *supported* and *experimental*.
 
