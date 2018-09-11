@@ -44,7 +44,8 @@ The following tables contain links to the current *supported* F5 CloudFormation 
 Deploy a BIG-IP VE with the number of NICs you choose.
 
 | **Description**                                    | **BYOL**                    | **BIG-IQ**               | **PAYG**                |
-|----------------------------------------------------|-----------------------------|--------------------------|-------------------------|                                                                
+|----------------------------------------------------|-----------------------------|--------------------------|-------------------------|                                                             
+| **Number of NICs** : Deploy a BIG-IP VE with the number of NICs you choose.                                                      |
 | 1 NIC    **existing** stack                        | [README][1nicbyolrm]        | [README][1nicbigiqrm]    | [README][1nicpaygrm]    |
 | 1 NIC    **production** stack                      | [README][1nicbyolrmpub]     | [README][1nicbigiqrmpub] | [README][1nicpaygrmpub] |
 |                                                    |                             |                          |                         |
@@ -56,14 +57,8 @@ Deploy a BIG-IP VE with the number of NICs you choose.
 |                                                    |                             |                          |                         | 
 | 3-8 NICs **existing** stack                        | [README][nnicbyolrm]        | [README][nnicbigiqrm]    | [README][nnicpaygrm]    |
 | 3-8 NICs **production** stack                      | [README][nnicbyolrmpub]     | [README][nnicbigiqrmpub] | [README][nnicpaygrmpub] |
-    
-
-### Failover clusters
-
-Deploy BIG-IP VEs that fail over to one another.
-
-| **Description**                                    | **BYOL**                  | **BIG-IQ**                | **PAYG**                 |
-|----------------------------------------------------|---------------------------|---------------------------|--------------------------|
+| | |
+| **Failover clusters** : Deploy BIG-IP VEs that fail over to one another.|
 | 2 NIC cluster, same AZ **existing** stack          | [README][2clbyolrm]       | [README][2clbigiqrm]      | [README][2clpaygrm]      | 
 | 2 NIC cluster, same AZ **production** stack        | [README][2clbyolrmpub]    | [README][2clbigiqrmpub]   | [README][2clpaygrmpub]   | 
 | 2 NIC cluster, different AZs **production** stack  | [README][2clbyolrmpubAZ]  | [README][2clbigiqrmpubAZ] | [README][2clpaygrmpubAZ] | 
@@ -71,18 +66,12 @@ Deploy BIG-IP VEs that fail over to one another.
 | 3 NIC cluster, same AZ **existing** stack          | [README][3clbyolrm]       | [README][3clbigiqrm]      | [README][3clpaygrm]      | 
 | 3 NIC cluster, same AZ **production** stack        | [README][3clbyolrmpub]    | [README][3clbigiqrmpub]   | [README][3clpaygrmpub]   | 
 | 3 NIC cluster, different AZs **production** stack  | [README][3clbyolrmpubAZ]  | [README][3clbigiqrmpubAZ] | [README][3clpaygrmpubAZ] |
-
-
-### Auto scaling
-
-Deploy a BIG-IP VE that auto scales based on traffic thresholds.
-
-| **Description**                                    | **BIG-IQ**                  | **PAYG**               |
-|----------------------------------------------------|-----------------------------|------------------------|
-| Auto scale LTM (frontend via ELB)                  | [README][ltmasbigiqrm]      | [README][ltmaspaygrm]  |
-| Auto scale LTM (frontend via DNS)                  | [README][ltmasbigiqdns]     | [README][ltmaspaygrm]  |
-| Auto Scale WAF (frontend via ELB)                  | [README][wafasbigiqrm]      | [README][wafaspaygrm]  |
-| Auto Scale WAF (frontend via DNS)                  | [README][wafasbigiqdns]     | [README][wafaspaygrm]  |
+| | |
+| **Auto scaling**: Deploy a BIG-IP VE that auto scales based on traffic thresholds.
+| Auto scale LTM (frontend via ELB)                  | | [README][ltmasbigiqrm]      | [README][ltmaspaygrm]  |
+| Auto scale LTM (frontend via DNS)                  | | [README][ltmasbigiqdns]     | [README][ltmaspaygrm]  |
+| Auto Scale WAF (frontend via ELB)                  | | [README][wafasbigiqrm]      | [README][wafaspaygrm]  |
+| Auto Scale WAF (frontend via DNS)                  | | [README][wafasbigiqdns]     | [README][wafaspaygrm]  |
 
 
 
